@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<title simple calculator></title>
+<style>
+  body {
+    text-align: center;
+    font-family:sans-serif ;
+    background: #fdcc2c;
+  }
+  .calculator{
+    width: 220px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: #352525;
+    box-shadow:0 0 10px #0f0a0a ;
+  }
+  input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size:"24px";
+    text-align: right;
+    margin-bottom: 10px;
+
+  }
+  button{
+    width: 48px;
+    height: 48px;
+    margin: 2px;
+    font-size: 20px;
+    border: none;
+    background-color: #8fb2d1;
+    cursor: pointer;
+    border-radius:6px;
+
+  }
+  button:hover{
+    background-image: #b96d6d;
+  }
+  .width{
+   width: 200px; 
+   background:#b45959;
+   color:white;
+}
+</style>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <br>
+    <button onclick="append('7')">7</button>
+    <button onclick="append('8')">8</button>
+    <button onclick="append('9')">9</button>
+    <button onclick="append('/')">/</button>
+    <button onclick="append('4')">4</button>
+    <button onclick="append('5')">5</button>
+    <button onclick="append('6')">6</button>
+    <button onclick="append('*')">x</button>
+    <button onclick="append('1')">1</button>
+    <button onclick="append('2')">2</button>
+    <button onclick="append('3')">3</button>
+    
+
+  </div>
+
+</body>
+</html>
